@@ -105,7 +105,6 @@ class PCA:
         self.set_x_cov()
         self.eigendecompose_x_cov()
         self.project_x()
-        self.x_cov_eigenvalues, self.x_cov_eigenvectors = self.sort_by_var(self.x_cov_eigenvectors)
 
     def head_x(self):
         print('Data head:')
